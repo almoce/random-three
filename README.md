@@ -1,4 +1,4 @@
 # Random Project
 : )
 
- - sample
+ - [Sample](https://almoce.github.io/random-project/sample/build/index.html)
