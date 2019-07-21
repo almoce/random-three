@@ -1,5 +1,5 @@
 {
-  "name": "random-project",
+  "name": "random-three",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/almoce/random-project.git"
+    "url": "git+https://github.com/almoce/random-three.git"
   },
   "author": "wenceye",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/almoce/random-project/issues"
+    "url": "https://github.com/almoce/random-three/issues"
   },
-  "homepage": "https://github.com/almoce/random-project#readme",
+  "homepage": "https://github.com/almoce/random-three#readme",
   "devDependencies": {
     "@babel/core": "^7.5.0",
     "@babel/preset-env": "^7.5.0",
