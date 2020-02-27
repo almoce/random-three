@@ -12,10 +12,7 @@ const O = {
 }
 const fontLoader = new T.FontLoader()
 const getColor = (r, g, b) => {
-    const get = n =>
-        Number(n)
-            .toString(16)
-            .padStart(2, '0')
+    const get = (n) => Number(n).toString(16).padStart(2, '0')
     return parseInt(`0x${get(r)}${get(g)}${get(b)}`)
 }
 
@@ -35,7 +32,7 @@ const init = () => {
     document.body.appendChild(O.render.domElement)
     const material = new T.MeshPhongMaterial({ color: 0x0000ff, wireframe: false })
 
-    const geometry = new T.TextGeometry(`${+new Date()}`, {
+    const geometry = new T.TextGeometry('01 42 03', {
         font: O.font,
         size: 80,
         height: 5,
@@ -61,7 +58,7 @@ const init = () => {
     O.scene.add(light)
     O.camera.position.z = 105
 }
-fontLoader.load(fontJson, font => {
+fontLoader.load(fontJson, (font) => {
     O.font = font
     init()
     animate()

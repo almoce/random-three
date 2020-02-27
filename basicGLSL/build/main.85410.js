@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{"4oT1":function(e,n){var i=window.innerWidth,o=window.innerHeight,t=document.createElement("canvas");t.width=i,t.height=o,document.body.appendChild(t);var w=t.getContext("webgl");w.viewport(0,0,w.drawingBufferWidth/5,w.drawingBufferHeight/5),w.clearColor(1,0,0,1),w.clear(w.COLOR_BUFFER_BIT)}},[["4oT1",1]]]);
