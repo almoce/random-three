@@ -21,7 +21,6 @@ const cube = () => {
 
 const setScene = () => {
     const box = cube()
-    console.log(mt)
     box.castShadow = true
     box.receiveShadow = true
     box.position.set(0, 2, 0)
