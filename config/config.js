@@ -33,7 +33,7 @@ module.exports = src => {
                 },
                 {
                     type: 'javascript/auto',
-                    test: /\.(png|jpe?g|gif|json)$/i,
+                    test: /\.(png|jpe?g|gif|json|gltf)$/i,
                     loader: 'file-loader',
                     options: {
                         outputPath: 'assets'
