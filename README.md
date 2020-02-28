@@ -6,3 +6,4 @@
 -   [Line](https://almoce.github.io/random-three/line/build/index.html)
 -   [BasicGLSL](https://almoce.github.io/random-three/basicGLSL/build/index.html)
 -   [orbitcontrols](https://almoce.github.io/random-three/orbitcontrols/build/index.html)
+-   [land](https://almoce.github.io/random-three/land/build/index.html)
